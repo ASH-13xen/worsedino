@@ -19,25 +19,25 @@ const GAME_HEIGHT = 200;
 
 // --- MODE CONSTANTS (UPDATED RANGES) ---
 // Y-Flip Mode: 50-150 (Quick Flip)
-const FLIP_Y_START_SCORE = 0;
-const FLIP_Y_END_SCORE = 0;
+const FLIP_Y_START_SCORE = 50;
+const FLIP_Y_END_SCORE = 150;
 
 // X-Flip Mode: 200-300 (Quick Flip)
-const FLIP_X_START_SCORE = 0;
-const FLIP_X_END_SCORE = 0;
+const FLIP_X_START_SCORE = 200;
+const FLIP_X_END_SCORE = 300;
 
 // Siren/Vertical Launch Mode: 350-450
-const SIREN_MODE_START_SCORE = 0;
-const SIREN_MODE_END_SCORE = 0;
-const MIGRAINE_MODE_START_SCORE = 0;
-const MIGRAINE_MODE_END_SCORE = 0;
+const SIREN_MODE_START_SCORE = 350;
+const SIREN_MODE_END_SCORE = 450;
+const MIGRAINE_MODE_START_SCORE = 350;
+const MIGRAINE_MODE_END_SCORE = 450;
 
 // Rotate (XY Alternating Flip) Mode: 500-600 (Rapid Flip)
-const ROTATE_START_SCORE = 0;
-const ROTATE_END_SCORE = 0;
+const ROTATE_START_SCORE = 500;
+const ROTATE_END_SCORE = 600;
 
 // Final Stop Score for Snake Battle
-const STOP_SCORE = 20;
+const STOP_SCORE = 650;
 // --- END MODE CONSTANTS ---
 
 const PLAYER_WIDTH = 88 / 1.5; //58
